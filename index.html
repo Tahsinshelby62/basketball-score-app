@@ -1,0 +1,30 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 class="heading">HOME</h3>
+                <p id="count-el">00</p>
+                <button class="number" onclick="add1()">+1</button>
+                <button class="number" onclick="add2()">+2</button>
+                <button class="number" onclick="add3()">+3</button>
+            </div>
+            <div>
+                <h3 class="heading">GUEST</h3>
+                <p id="count-gl">00</p>
+                <button class="number" onclick="add1g()">+1</button>
+                <button class="number" onclick="add2g()">+2</button>
+                <button class="number" onclick="add3g()">+3</button>
+            </div>
+        </div>
+        <div class="b">
+            <p id="countdown">01:00</p>
+        </div>
+        <div class="a">
+            <button class="new-game" onclick="start()">New Game</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

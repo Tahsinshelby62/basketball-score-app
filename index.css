@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    background-image: url("bkt.jpg");
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    /* background-size: cover; */
+    
+    /* width: 100%; */
+    
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    /* background: rgba(${1:red}, ${2:green}, ${3:blue}, ${4:alpha}); */
+    margin-top: 80px;
+    margin-right: 80px;
+    margin-left: 80px;
+    
+}
+#count-el{
+    background-color: black;
+    text-align: center;
+    padding: 30px 40px 30px 40px;
+    font-weight: bold;
+    color: darkred;
+    font-size: 30px;
+}
+#count-gl{
+    background-color: black;
+    text-align: center;
+    padding: 30px 40px 30px 40px;
+    font-weight: bold;
+    color: darkred;
+    font-size: 30px;
+}
+.heading{
+    margin: 40px;
+    font-size: 40px;
+}
+.number{
+    margin: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 10px;
+    opacity: 0.7;
+    background: darkolivegreen;
+    color: white;
+    font-weight: bold
+}
+.new-game{
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: darkgrey;
+    margin-top: 20px;
+    display: block;
+    border: 3px solid white
+}
+.a{
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+}
+#countdown{    
+    text-align: center;
+    font-size: 20px;
+    background-color: darkkhaki;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.b{
+    display: flex;
+    justify-content: center
+}
